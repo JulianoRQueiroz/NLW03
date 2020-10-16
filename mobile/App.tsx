@@ -10,11 +10,9 @@ export default function App() {
     Nunito_700Bold,
     Nunito_800ExtraBold,
   });
-
   if (!fontsLoades){
     return null;
   }
-
   return (
     <Routes></Routes>
   );
